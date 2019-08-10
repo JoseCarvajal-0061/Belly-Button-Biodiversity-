@@ -64,11 +64,11 @@ function buildCharts(sample) {
       hovertext: data.otu.labels.slice(0, 10),
     }
 
-    let layout = { 
+    let layout1 = { 
       title: "Top 1o OTU Microbiomes" 
     }; 
 
-    Plotly.newPlot('pie', trace1, layout);
+    Plotly.newPlot('pie', trace1, layout1);
 
 
   });
